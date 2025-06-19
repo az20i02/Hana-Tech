@@ -1,0 +1,28 @@
+# Core
+Django>=5.0,<6.0
+djangorestframework>=3.15
+pillow  # image upload support
+
+# Environment variable management (optional but best practice)
+python-decouple>=3.8  # or use django-environ
+
+# CORS support (for React frontend)
+django-cors-headers>=4.0
+
+# PostgreSQL (recommended for production)
+psycopg2-binary>=2.9
+
+# Admin image preview (optional, for better UX)
+django-imagekit>=5.0
+
+# Wagtail (optional CMS if needed)
+# wagtail>=6.0
+
+# For managing SVG or custom icon fields (optional)
+# django-inline-svg
+
+# If you plan to deploy via gunicorn (for Linux servers)
+gunicorn
+
+# Optional: For better debugging during development
+django-debug-toolbar
